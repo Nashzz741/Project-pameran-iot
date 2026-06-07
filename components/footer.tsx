@@ -9,6 +9,7 @@ export default function Footer() {
       <div className="absolute top-[20%] left-1/2 -translate-x-1/2 opacity-[0.02] text-[25vw] font-black pointer-events-none whitespace-nowrap uppercase">
         PPLG 2
       </div>
+
       <div className="relative z-10 flex flex-col items-center">
         {/* 1. TEXT UTAMA (TAG) */}
         <div className="text-center mb-10">
@@ -36,11 +37,13 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* 3. SOCIAL MEDIA */}
-        <div className="flex gap-6 mt-10 mb-20">
+        {/* 3. SOCIAL MEDIA (NAIK KE ATAS) */}
+        <div className="flex gap-6 mt-10 mb-10">
+          {" "}
+          {/* Margin bottom dikecilkan dari 20 ke 10 */}
           <a
             href="https://youtube.com/@xpplg2-nesas?si=TlWzzqQr5-Z9QnyN"
-            className="p-4 rounded-full border border-white/10 hover:bg-[#c91b00] hover:border-[#FC563C] transition-all duration-300 group"
+            className="p-4 rounded-full border border-white/10 hover:bg-[#c91b00] hover:border-[#FC563C] transition-all duration-300 group text-white"
           >
             <FaYoutube
               size={22}
@@ -49,7 +52,7 @@ export default function Footer() {
           </a>
           <a
             href="https://www.tiktok.com/@two_xpplg?_r=1&_t=ZS-95vXydfRHtd"
-            className="p-4 rounded-full border border-white/10 hover:bg-[#0b0706] hover:border-[#f5eeed] transition-all duration-300 group"
+            className="p-4 rounded-full border border-white/10 hover:bg-[#0b0706] hover:border-[#f5eeed] transition-all duration-300 group text-white"
           >
             <FaTiktok
               size={22}
@@ -58,7 +61,7 @@ export default function Footer() {
           </a>
           <a
             href="https://www.instagram.com/two_xpplg?igsh=Mzhzb3V2dmE4NmRn"
-            className="p-4 rounded-full border border-white/10 hover:bg-[#FC563C] hover:border-[#c10777] transition-all duration-300 group"
+            className="p-4 rounded-full border border-white/10 hover:bg-[#FC563C] hover:border-[#c10777] transition-all duration-300 group text-white"
           >
             <FaInstagram
               size={22}
@@ -67,38 +70,74 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* 4. BOTTOM BAR (INFO & LOGOS) */}
+        {/* 4. SPONSOR SECTION (NEW) */}
+        <div className="flex flex-col items-center mb-16">
+          <p className="text-[10px] tracking-[0.6em] text-white/30 font-bold uppercase mb-6">
+            SPONSORED BY
+          </p>
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60 hover:opacity-100 transition-opacity duration-500">
+            {/* Logo-logo sponsor lu di sini */}
+            <Image
+              src="/img/MRC.png"
+              width={80}
+              height={80}
+              alt="Sponsor 1"
+              className="grayscale hover:grayscale-0 transition-all"
+            />
+            <Image
+              src="/img/topkopi.png"
+              width={80}
+              height={80}
+              alt="Sponsor 1"
+              className="grayscale hover:grayscale-0 transition-all"
+            />
+
+            {/* Tambahin lagi logo sponsor lain kalau ada */}
+          </div>
+        </div>
+
+        {/* 5. BOTTOM BAR (INFO & COPYRIGHT) */}
         <div className="w-full flex flex-col md:flex-row justify-between items-end border-t border-white/10 pt-10 gap-8">
-          {/* TEKS DI KIRI */}
           <div className="text-[9px] md:text-[10px] text-gray-500 leading-loose">
             <p className="font-bold text-white mb-1 tracking-[0.2em]">
               LEAD BY YANI YULIANTI S.T
             </p>
             <p>DESIGNED BY X PPLG 2 </p>
-            <p>PRODUCT MADE BY X TJKT  </p>
+            <p>PRODUCT MADE BY X TJKT </p>
             <p>PROPERTIES BY SMKN 1 SUBANG</p>
             <p className="mt-3 opacity-50 text-[11px] md:text-[12px] leading-normal tracking-wide">
               Copyright © 2026 — Enzo-Alfa-Rizky - X PPLG 2
             </p>
           </div>
 
-          {/* LOGO DI KANAN */}
           <div className="flex items-center gap-6">
+            <p className="text-[9px] text-white/20 font-mono">
+              OFFICIAL PARTNERS —
+            </p>
             <Image
               src="/img/LogoSMKN1SUBANG.png"
-              width={45}
-              height={45}
-              alt="Logo 1"
+              width={35}
+              height={35}
+              alt="Partner 1"
             />
-            <Image src="/img/LogoRPL.png" width={45} height={45} alt="Logo 2" />
-            <Image src="/img/LogoTKJ.png" width={45} height={45} alt="Logo 3" />
+            <Image
+              src="/img/LogoRPL.png"
+              width={35}
+              height={35}
+              alt="Partner 2"
+            />
+            <Image
+              src="/img/LogoTKJ.png"
+              width={35}
+              height={35}
+              alt="Partner 3"
+            />
           </div>
         </div>
-      </div>{" "}
-      {/* DIV PENUTUP INI TADI YANG HILANG */}
+      </div>
       {/* VERTICAL TEXT DECORATION */}
       <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-8 text-[9px] font-black text-white/5 uppercase tracking-[0.8em] [writing-mode:vertical-lr]">
-        SMKN 1 SUBANG — X PPLG 2 — SMKN 1 SUBANG — X PPLG 2
+        SMKN 1 SUBANG — X PPLG 2 — SMKN 1 SUBANG — X PPLG
       </div>
     </footer>
   );

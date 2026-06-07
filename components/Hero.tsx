@@ -127,7 +127,7 @@ export default function Hero() {
           className="text-[10vw] md:text-[7.5vw] font-black text-white leading-[0.8] tracking-[-0.07em] uppercase text-right drop-shadow-2xl"
         >
           {" "}
-          Thinks<span className="text-[#FC563C]">.</span>{" "}
+          Things<span className="text-[#FC563C]">.</span>{" "}
         </h1>
       </div>
 
