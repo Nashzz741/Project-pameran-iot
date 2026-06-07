@@ -118,7 +118,7 @@ const IOT_DATA = [
     title: "mini coolerr",
     desc: "Mini ukurannya, maksimal sejuknya. (TJKT_2)",
     fullDesc:
-      "kipas mini sederhana berbasis motor dan rangkaian elektronik dasar. Kipas ini menggunakan baling-baling plastik yang dipasang pada motor kecil, dengan rangka penopang dari kayu atau bahan ringan lainnya. Sumber daya berasal dari baterai, dan kontrolnya sederhana menggunakan saklar on/off.",
+      "Mini Cooler Es Batu adalah kipas portable plus AC mini hemat listrik yang bikin ruangan jadi adem tanpa ribet pasang outdoor, cukup isi tangki 100ml-300ml dengan es batu, angin dingin + mist spray seger langsung keluar buat area tidak jauh dari alat. Bisa disimpan di meja kerja/sekolah atau kamar kos 3x3m, cocok banget buat anak kos, kerja/sekolah atau yang gerahan tapi budget pas-pasan karena harga kantong anak sekolahan, jauh lebih murah dari AC 2 jutaan, tapi ingat es batunya wajib diisi ulang 1-2 jam sekali dan ruangan bisa agak lembab jika jendela ketutup rapat.",
     imgCard: "/img/mini cooler pt.webp",
     imgDetail: "/img/mini cooler lc.webp",
   },
