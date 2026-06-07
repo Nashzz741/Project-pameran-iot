@@ -19,7 +19,7 @@ const IOT_DATA = [
     desc: "Bukan Sihir, Ini O.A.S.I.S. (TJKT_2)",
     fullDesc:
       "O.A.S.I.S (Optical Automated Smart Illumination System) adalah proyek smart light berbasis IoT yang menggunakan ESP32 sebagai pusat kontrol dan aplikasi Blynk sebagai pengendali melalui smartphone. Sistem ini memungkinkan pengguna menyalakan atau mematikan lampu dari jarak jauh melalui koneksi Wi-Fi. ESP32 akan menerima perintah dari aplikasi lalu mengontrol modul relay sebagai sakelar elektronik untuk mengatur arus listrik pada lampu secara otomatis dan praktis.",
-    imgCard: "/img/p.webp",
+    imgCard: "/img/oasis-P.webp",
     imgDetail: "/img/lc.webp",
   },
   {
